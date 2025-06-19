@@ -26,5 +26,3 @@ A robust and extensible backend for a WhatsApp chatbot built with **Java + Sprin
 - Meta WhatsApp Business account (test phone number, access token, phone number ID)
 
 ---
-
-## 📁 Project Structure
