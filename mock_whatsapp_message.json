@@ -1,0 +1,70 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "1234567890",
+              "phone_number_id": "123456789012345"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Rohit"
+                },
+                "wa_id": "918888888888"
+              }
+            ],
+            "messages": [
+              {
+                "from": "918888888888",
+                "id": "wamid.HBgLMjAy...",
+                "timestamp": "1658355559",
+                "text": {
+                  "body": "Hello Bot!"
+                },
+                "type": "text"
+              },
+              {
+                "from": "918888888888",
+                "id": "wamid.HBgLMjAy...",
+                "timestamp": "1658355560",
+                "image": {
+                  "caption": "Check this image",
+                  "mime_type": "image/jpeg",
+                  "sha256": "abcd1234",
+                  "id": "media_id_123"
+                },
+                "type": "image"
+              },
+              {
+                "from": "918888888888",
+                "id": "wamid.HBgLMjAy...",
+                "timestamp": "1658355561",
+                "button": {
+                  "payload": "USER_SELECTED_HELP",
+                  "text": "Help"
+                },
+                "type": "button"
+              },
+              {
+                "from": "918888888888",
+                "id": "wamid.HBgLMjAy...",
+                "timestamp": "1658355562",
+                "type": "system",
+                "system": {
+                  "body": "User changed phone number"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
